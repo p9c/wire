@@ -2,8 +2,9 @@ package wire
 
 import (
 	"fmt"
-	log "github.com/p9c/logi"
 	"io"
+
+	log "github.com/p9c/logi"
 )
 
 // MsgNotFound defines a bitcoin notfound message which is sent in response to a getdata message if any of the requested data in not available on the peer. Each message is limited to a maximum number of inventory vectors, which is currently 50,000. Use the AddInvVect function to build up the list of inventory vectors when sending a notfound message to another peer.

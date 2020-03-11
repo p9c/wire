@@ -2,10 +2,11 @@ package wire
 
 import (
 	"fmt"
-	log "github.com/p9c/logi"
 	"io"
 
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
+	log "github.com/p9c/logi"
+
+	"github.com/p9c/chainhash"
 )
 
 // maxFlagsPerMerkleBlock is the maximum number of flag bytes that could possibly fit into a merkle block.  Since each transaction is represented by a single bit, this is the max number of transactions per block divided by 8 bits per byte.  Then an extra one to cover partials.

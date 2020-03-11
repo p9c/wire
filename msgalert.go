@@ -3,8 +3,9 @@ package wire
 import (
 	"bytes"
 	"fmt"
-	log "github.com/p9c/logi"
 	"io"
+
+	log "github.com/p9c/logi"
 )
 
 // MsgAlert contains a payload and a signature:

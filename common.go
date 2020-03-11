@@ -4,12 +4,13 @@ import (
 	"crypto/rand"
 	"encoding/binary"
 	"fmt"
-	log "github.com/p9c/logi"
 	"io"
 	"math"
 	"time"
 
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
+	log "github.com/p9c/logi"
+
+	"github.com/p9c/chainhash"
 )
 
 const (

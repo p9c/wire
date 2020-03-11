@@ -3,10 +3,11 @@ package wire
 import (
 	"bytes"
 	"fmt"
-	log "github.com/p9c/logi"
 	"io"
 	"strings"
 	"time"
+
+	log "github.com/p9c/logi"
 )
 
 // MaxUserAgentLen is the maximum allowed length for the user agent field in a version message (MsgVersion).

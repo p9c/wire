@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"io"
 	"time"
-	
-	"github.com/p9c/pod/pkg/chain/forkhash"
+
+	"github.com/p9c/forkhash"
 	log "github.com/p9c/logi"
-	
-	"github.com/p9c/pod/pkg/chain/fork"
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
+
+	"github.com/p9c/chainhash"
+	"github.com/p9c/fork"
 )
 
 // MaxBlockHeaderPayload is the maximum number of bytes a block header can be. Version 4 bytes + Timestamp 4 bytes + Bits 4 bytes + Nonce 4 bytes + PrevBlock and MerkleRoot hashes.
@@ -53,7 +53,7 @@ func (h *BlockHeader) BlockHashWithAlgos(height int32) (out chainhash.Hash) {
 	}
 	vers := h.Version
 	algo := fork.GetAlgoName(vers, height)
-	out = forkhash.Hash(buf.Bytes(), algo, height)
+	out = chainhash.Hash(forkhash.Hash(buf.Bytes(), algo, height))
 	// log.L.Prror("BlockHashWithAlgos %d %s %s %s\n", vers, algo, out)
 	return
 }

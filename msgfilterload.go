@@ -2,8 +2,9 @@ package wire
 
 import (
 	"fmt"
-	log "github.com/p9c/logi"
 	"io"
+
+	log "github.com/p9c/logi"
 )
 
 // BloomUpdateType specifies how the filter is updated when a match is found

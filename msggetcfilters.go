@@ -5,7 +5,7 @@ import (
 
 	log "github.com/p9c/logi"
 
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
+	"github.com/p9c/chainhash"
 )
 
 // MaxGetCFiltersReqRange the maximum number of filters that may be requested in a getcfheaders message.

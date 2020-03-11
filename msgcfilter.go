@@ -2,10 +2,11 @@ package wire
 
 import (
 	"fmt"
-	log "github.com/p9c/logi"
 	"io"
 
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
+	log "github.com/p9c/logi"
+
+	"github.com/p9c/chainhash"
 )
 
 // FilterType is used to represent a filter type.

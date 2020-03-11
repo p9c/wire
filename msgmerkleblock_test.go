@@ -10,7 +10,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
+	"github.com/p9c/chainhash"
 )
 
 // TestMerkleBlock tests the MsgMerkleBlock API.

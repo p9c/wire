@@ -11,7 +11,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
+	"github.com/p9c/chainhash"
 )
 
 // makeHeader is a convenience function to make a message header in the form of a byte slice.  It is used to force errors when reading messages.

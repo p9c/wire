@@ -3,11 +3,12 @@ package wire
 import (
 	"bytes"
 	"fmt"
-	log "github.com/p9c/logi"
 	"io"
 	"strconv"
 
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
+	log "github.com/p9c/logi"
+
+	"github.com/p9c/chainhash"
 )
 
 const (

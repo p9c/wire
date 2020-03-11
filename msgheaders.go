@@ -2,8 +2,9 @@ package wire
 
 import (
 	"fmt"
-	log "github.com/p9c/logi"
 	"io"
+
+	log "github.com/p9c/logi"
 )
 
 // MaxBlockHeadersPerMsg is the maximum number of block headers that can be in a single bitcoin headers message.

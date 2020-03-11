@@ -2,10 +2,11 @@ package wire
 
 import (
 	"encoding/binary"
-	log "github.com/p9c/logi"
 	"io"
 	"net"
 	"time"
+
+	log "github.com/p9c/logi"
 )
 
 // maxNetAddressPayload returns the max payload size for a bitcoin NetAddress based on the protocol version.

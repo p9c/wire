@@ -34,7 +34,13 @@ github.com/minio/highwayhash v1.0.0/go.mod h1:xQboMTeM9nY9v/LlAOxFctujiv5+Aq2hR5
 github.com/nanobox-io/golang-scribble v0.0.0-20190309225732-aa3e7c118975/go.mod h1:4Mct/lWCFf1jzQTTAaWtOI7sXqmG+wBeiBfT4CxoaJk=
 github.com/onsi/ginkgo v1.6.0/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=
 github.com/onsi/gomega v1.4.1/go.mod h1:C1qb7wdrVGGVU+Z6iS04AVkA3Q65CEZX59MT0QO5uiA=
+github.com/p9c/chainhash v0.0.1 h1:Xc3PpStaeKsKy/SL1v3RpO2GkEPIVjvpV+XZiqskZ3k=
+github.com/p9c/chainhash v0.0.1/go.mod h1:h9tQF6pz6PJLdeR2lnDCJn3d5EOsyhmgtDa9Ln3XkcY=
 github.com/p9c/fec v0.0.1/go.mod h1:NLldwLhzuyGcNV/5HvMf6eqqrba8tGXjX1sXBNFqAWU=
+github.com/p9c/fork v0.0.1 h1:Bvdc57OlK9tTymY+WXvUGjK5nxpDUQlVPBpicYIfypY=
+github.com/p9c/fork v0.0.1/go.mod h1:DZ7pRhtNJki/ETtBPmxXUkXQhGCWefc86HGo72gYehI=
+github.com/p9c/forkhash v0.0.1 h1:dg3lW5zMOP07SaJ/4dMBTy6xtGQ8mmZafk0B1X9kw28=
+github.com/p9c/forkhash v0.0.1/go.mod h1:+Wzl4ibnwGlUNaVjAIyiz7zMYAeFcsnzbP7izMDuMm8=
 github.com/p9c/gcm v0.0.1/go.mod h1:eSowMqIUJc8ddaZLumu4npH9vtY2VfH2Nt95FGj6G3U=
 github.com/p9c/gel v0.0.2/go.mod h1:XrSaE/yNCdnkxUKTkcFXgo00A2SnhfmIOFhJsLhRDFg=
 github.com/p9c/gelook v0.0.0-20200311045057-0f256a5503f5/go.mod h1:JhzyuHiIyF/BI3/zJTk0GJleNw6+7ZV5Cl24P4Z0wWo=

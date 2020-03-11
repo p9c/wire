@@ -2,14 +2,15 @@ package wire
 
 import (
 	"bytes"
-	log "github.com/p9c/logi"
 	"io"
 	"reflect"
 	"testing"
 
+	log "github.com/p9c/logi"
+
 	"github.com/davecgh/go-spew/spew"
 
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
+	"github.com/p9c/chainhash"
 )
 
 // TestInv tests the MsgInv API.

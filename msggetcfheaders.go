@@ -1,10 +1,11 @@
 package wire
 
 import (
-	log "github.com/p9c/logi"
 	"io"
 
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
+	log "github.com/p9c/logi"
+
+	"github.com/p9c/chainhash"
 )
 
 // MsgGetCFHeaders is a message similar to MsgGetHeaders, but for committed filter headers. It allows to set the FilterType field to get headers in the chain of basic (0x00) or extended (0x01) headers.

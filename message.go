@@ -8,7 +8,7 @@ import (
 
 	log "github.com/p9c/logi"
 
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
+	"github.com/p9c/chainhash"
 )
 
 // MessageHeaderSize is the number of bytes in a bitcoin message header. Bitcoin network (magic) 4 bytes + command 12 bytes + payload length 4 bytes + checksum 4 bytes.

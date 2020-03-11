@@ -2,10 +2,11 @@ package wire
 
 import (
 	"fmt"
-	log "github.com/p9c/logi"
 	"io"
 
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
+	log "github.com/p9c/logi"
+
+	"github.com/p9c/chainhash"
 )
 
 // MaxBlockLocatorsPerMsg is the maximum number of block locator hashes allowed per message.
