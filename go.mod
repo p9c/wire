@@ -6,6 +6,6 @@ require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/p9c/chainhash v0.0.2
 	github.com/p9c/fork v0.0.2
-	github.com/p9c/forkhash v0.0.5
+	github.com/p9c/forkhash v0.0.7
 	github.com/p9c/logi v0.0.13
 )
