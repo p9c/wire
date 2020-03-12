@@ -6,8 +6,12 @@ github.com/enceve/crypto v0.0.0-20160707101852-34d48bb93815 h1:D22EM5TeYZJp43hGD
 github.com/enceve/crypto v0.0.0-20160707101852-34d48bb93815/go.mod h1:wYFFK4LYXbX7j+76mOq7aiC/EAw2S22CrzPHqgsisPw=
 github.com/p9c/chainhash v0.0.1 h1:Xc3PpStaeKsKy/SL1v3RpO2GkEPIVjvpV+XZiqskZ3k=
 github.com/p9c/chainhash v0.0.1/go.mod h1:h9tQF6pz6PJLdeR2lnDCJn3d5EOsyhmgtDa9Ln3XkcY=
+github.com/p9c/chainhash v0.0.2 h1:ae2zemOBq8Bsc1f6jC/WWFQAphEvV5JCCFkeqr84u5M=
+github.com/p9c/chainhash v0.0.2/go.mod h1:P+N9XRutS5Aw3MEC/sq6FIPzBFBmJ/+q4JiIXybKzJM=
 github.com/p9c/fork v0.0.1 h1:Bvdc57OlK9tTymY+WXvUGjK5nxpDUQlVPBpicYIfypY=
 github.com/p9c/fork v0.0.1/go.mod h1:DZ7pRhtNJki/ETtBPmxXUkXQhGCWefc86HGo72gYehI=
+github.com/p9c/fork v0.0.2 h1:c15KC3qf3Q0Wy/NLdHz8dTEs03LJNYC2+u+RtzK4/J4=
+github.com/p9c/fork v0.0.2/go.mod h1:REFYIYusmOjf8GUBK459OT2+5JHXt8Js3fTYK1ga5U4=
 github.com/p9c/forkhash v0.0.5 h1:fBJs/gQFKW7jR6/gQj/LNeqLSBonR5uOaUtumKXWBU4=
 github.com/p9c/forkhash v0.0.5/go.mod h1:/KeNqH7R/7hgzVYPLk6Ju0z1N536vz6Y9JPMJ5tBIp0=
 github.com/p9c/goterm v0.0.2 h1:XOc0BTicZqOxff2ytn4fOLCLutFONgJfAzl6ONr6OCk=
